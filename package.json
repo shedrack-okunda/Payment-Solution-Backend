@@ -1,7 +1,7 @@
 {
   "name": "finpay",
   "version": "1.0.0",
-  "description": "fintech",
+  "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
