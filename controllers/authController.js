@@ -1,12 +1,12 @@
 import bcrypt from "bcrypt";
 import dotenv from "dotenv";
-import User from "../models/User";
-import { sanitizeUser } from "../utils/SanitizeUser";
-import { generateToken } from "../utils/GenerateToken";
-import OTP from "../models/Otp";
-import { generateOtp } from "../utils/GenerateOtp";
-import { sendMail } from "../utils/Email";
-import PasswordResetToken from "../models/PasswordResetToken";
+import User from "../models/User.js";
+import { sanitizeUser } from "../utils/SanitizeUser.js";
+import { generateToken } from "../utils/GenerateToken.js";
+import OTP from "../models/Otp.js";
+import { generateOtp } from "../utils/GenerateOtp.js";
+import { sendMail } from "../utils/Email.js";
+import PasswordResetToken from "../models/PasswordResetToken.js";
 dotenv.config();
 
 export const signup = async (req, res) => {

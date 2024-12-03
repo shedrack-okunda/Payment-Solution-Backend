@@ -9,8 +9,8 @@ import {
   resetPassword,
   logout,
   checkAuth,
-} from "../controllers/authController";
-import { verifyToken } from "../middleware/VerifyToken";
+} from "../controllers/authController.js";
+import { verifyToken } from "../middleware/VerifyToken.js";
 
 router
   .post("/signup", signup)
